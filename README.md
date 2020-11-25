@@ -1,5 +1,5 @@
 # DeleteAzureVm
-Delete VM with all associated resources - Single Vm or Pool Vm for WVD and not only
+Delete VM with all associated resources - Single Vm or delete a pool Vm for WVD and not only
 ## Scope
 If you try to delete a VM from the Azure portal you're just deleting the vm and not all the associated resources like disks, Network interface, boot diagnostic storage ecc.thats mean that you have a lot of orphaned resources that you still pay. This script is born to help us to delete completly the VM and all the resources. You can also delete a set of VM that have the same name with a number like example-1 example-2 ecc. You can find this type of configuration on the WVD.
 ## Configure

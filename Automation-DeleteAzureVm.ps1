@@ -43,7 +43,7 @@ catch {
 }
 if (($SingleOrPooled -eq "Single") -or ($SingleOrPooled -eq "single") )
 {
-    $zvm = Get-AzVm -Name $VMName
+    $vm = Get-AzVm -Name $VMName
     if ($vm) 
     {
         $RGName=$vm.ResourceGroupName
